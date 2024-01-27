@@ -1,0 +1,30 @@
+[user]
+	name = naukatti
+	email = noora.peltok@gmail.com
+
+[fetch]
+	recurseSubmodules = true
+	parallel = 0
+	prune = true
+	pruneTags = true
+
+[checkout]
+	defaultRemote = origin
+	workers = -1
+
+[diff]
+	algorithm = histogram
+	renames = copies
+	
+[init]
+	defaultBranch = main
+
+[merge]
+	conflictStyle = zdiff3
+
+[push]
+	default = current
+	autoSetupRemote = true
+
+[pull]
+	ff = only			

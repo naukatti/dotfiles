@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+set -euo pipefail
+echo "Nooting up! 🐧"
+
+mkdir -p ~/.config/kitty
+cp kitty.conf ~/.config/kitty/kitty.conf
+echo "Found kitty 🐈‍ Nya~"
+
+mkdir -p ~/.config/topgrade
+cp topgrade.toml ~/.config/topgrade/topgrade.toml
+echo "Glasses topped! 🥂"
+
+cp gitconfig ~/.gitconfig
+echo "Git got 🤓"
+
+cp zshrc ~/.zshrc
+echo "Beautified commandline 💅"
+
+./homebrew.sh
+echo "Brews ready 🍻"

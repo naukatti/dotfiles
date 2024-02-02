@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+brew tap homebrew/cask-fonts
+
 brew install \
 bat \
 bottom \

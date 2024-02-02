@@ -16,5 +16,5 @@ echo "Git got 🤓"
 cp zshrc ~/.zshrc
 echo "Beautified commandline 💅"
 
-./homebrew.sh
-echo "Brews ready 🍻"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+echo "Oh my 😏"
